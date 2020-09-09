@@ -14,7 +14,7 @@ public class FromArrayExample {
 			public boolean test(int value) {
 				return value>5;
 			}
-		}).forEach(value ->System.out.println(value));
+		}).forEach(System.out::println);
 		
 		//long cnt = iStream.count();더이상 처리할 반복자가 없기 떄문에 에러발생
 
