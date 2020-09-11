@@ -18,6 +18,7 @@ import java.util.stream.Stream;
 import common.Employee;
 
 public class EmpDAO {
+
 	public static List<Employee> getEmpLists() {
 		Connection conn = ConnectionDB.getDB();
 		List<Employee> employees = new ArrayList<>();
@@ -80,8 +81,6 @@ public class EmpDAO {
 //				
 //			});
 			
-			
-
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
