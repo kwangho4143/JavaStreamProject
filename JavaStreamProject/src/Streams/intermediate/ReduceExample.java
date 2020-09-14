@@ -1,5 +1,7 @@
 package Streams.intermediate;
 
+
+import common.Employee;
 import java.util.List;
 import java.util.OptionalInt;
 import java.util.function.Function;
@@ -18,7 +20,6 @@ public class ReduceExample {
 
 		
 		OptionalInt avg = stream.filter(new Predicate<Employee>() {
-
 			@Override
 			public boolean test(Employee t) {
 				

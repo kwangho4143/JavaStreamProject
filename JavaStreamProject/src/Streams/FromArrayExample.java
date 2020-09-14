@@ -18,7 +18,6 @@ public class FromArrayExample {
 		
 		//long cnt = iStream.count();더이상 처리할 반복자가 없기 떄문에 에러발생
 
-		
 		iStream = Arrays.stream(intAry);
 		long cnt = iStream.sum();
 		System.out.println("총합:"+ cnt);
